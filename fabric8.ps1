@@ -8,12 +8,6 @@ echo "Set Memory to $Memory"
 $Cpus = 4
 echo "Set Cpus to $Cpus"
 
-$env:GITHUB_OAUTH_CLIENT_ID = "de4090ba3d875fe69a29"
-echo "Setting GITHUB_OAUTH_CLIENT_ID to $GitHubClientId"
-
-$env:GITHUB_OAUTH_CLIENT_SECRET = "411d96e94dac3412248a9e17a47e940310eb9edf"
-echo "Setting GITHUB_OAUTH_CLIENT_SECRET to $GitHubClientSecret"
-
 try {$HOME = $USERPROFILE } catch {}
 echo "Setting HOME to $HOME"
 
